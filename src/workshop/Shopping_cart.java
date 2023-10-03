@@ -38,7 +38,9 @@ public class Shopping_cart {
                 }else{
                     JOptionPane.showMessageDialog(null,"Cantidad que ingreso no es valida");
                 }
-            }else{JOptionPane.showMessageDialog(null,"No se ingresan gaseosa");}
+            }else{JOptionPane.showMessageDialog(null,"No se ingresan gaseosa");
+            gDesicion = 0;
+            }
 
             pDesicion = Integer.parseInt(JOptionPane.showInputDialog("¿Desea agregar papas? Hay " +papas.amount+ " papas disponibles   1.si  2.no"));
             if(pDesicion == 1){
